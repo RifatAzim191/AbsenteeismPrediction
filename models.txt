@@ -1,0 +1,23 @@
+1. Logistic Regression (useful for binary classification)
+2. SVM (Effective for high-dimensional data and can handle both linear and non-linear relationships.)
+3. Feedforward Neural Networks (Good for tabular data and can handle both numerical and categorical features.)
+
+
+Wide and Deep Learning:
+    Description: Wide and Deep models combine the strengths of linear models with deep neural networks. This architecture allows the model 
+                 to learn both low-dimensional dense representations (from the deep part) and high-dimensional sparse representations 
+                 (from the wide part) simultaneously.
+    Architecture: The wide part can be a linear model (e.g., logistic regression) that takes as input the cross-product transformations of 
+                  categorical features. The deep part can be an FNN as described above.
+    Training:   You can train the combined model jointly using a suitable loss function that combines the objectives of both the wide and 
+                deep parts.
+
+Embedding Neural Network:
+
+    Description: This model is particularly useful when dealing with categorical features with high cardinality (many unique categories). 
+                 It utilizes embedding layers to learn dense representations (embeddings) of categorical variables, which can capture complex 
+                 relationships between categories.
+    Architecture: The model architecture typically includes embedding layers for categorical features, followed by one or more fully 
+                  connected layers. You can concatenate the embeddings of categorical features with numerical features before feeding them 
+                  into the fully connected layers.
+    Training:   Train the model using backpropagation with appropriate loss functions and optimization techniques. 
