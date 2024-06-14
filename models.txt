@@ -1,9 +1,12 @@
 1. Logistic Regression (useful for binary classification)
-2. SVM (Effective for high-dimensional data and can handle both linear and non-linear relationships.)
-3. Feedforward Neural Networks (Good for tabular data and can handle both numerical and categorical features.)
+2. K-Nearest Neighbor (Renowned for pattern recognition in binary classification)
+3. SVM (Effective for high-dimensional data and can handle both linear and non-linear relationships.)
+4. Random Forest (Similar to SVM, but aggregates results by averaging the classifiers)
+5. Decision Tree (Lighter than Random Forest algorithm, and takes lesser computation time than RF)
+6. Feedforward Neural Networks (Good for tabular data and can handle both numerical and categorical features.)  [#didnt use]
 
 
-Wide and Deep Learning:
+Wide and Deep Learning: [#didnt use]
     Description: Wide and Deep models combine the strengths of linear models with deep neural networks. This architecture allows the model 
                  to learn both low-dimensional dense representations (from the deep part) and high-dimensional sparse representations 
                  (from the wide part) simultaneously.
@@ -12,7 +15,7 @@ Wide and Deep Learning:
     Training:   You can train the combined model jointly using a suitable loss function that combines the objectives of both the wide and 
                 deep parts.
 
-Embedding Neural Network:
+Embedding Neural Network:[#didnt use]
 
     Description: This model is particularly useful when dealing with categorical features with high cardinality (many unique categories). 
                  It utilizes embedding layers to learn dense representations (embeddings) of categorical variables, which can capture complex 
